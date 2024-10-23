@@ -50,9 +50,7 @@ public class AutenticacionController {
             return new LoginResponseDTO("00", "Usuario cerró sesión", "", "");
         } catch (Exception e) {
             return new LoginResponseDTO("99", "Error: Ocurrió un problema", "", "");
-
         }
-
     }
 
 }
